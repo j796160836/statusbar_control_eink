@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Media volume row -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Media"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_media_minus"
+            android:layout_width="48dp"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_eink_button"
+            android:gravity="center"
+            android:text="@string/stepper_minus"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_media_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btn_media_plus"
+            android:layout_width="48dp"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_eink_button"
+            android:gravity="center"
+            android:text="@string/stepper_plus"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Ring volume row -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ring"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_ring_minus"
+            android:layout_width="48dp"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_eink_button"
+            android:gravity="center"
+            android:text="@string/stepper_minus"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_ring_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btn_ring_plus"
+            android:layout_width="48dp"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_eink_button"
+            android:gravity="center"
+            android:text="@string/stepper_plus"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Vibrate toggle -->
+    <TextView
+        android:id="@+id/btn_vibrate_toggle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_eink_button"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>

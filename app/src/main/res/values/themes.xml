@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Statusbar_control_eink" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Translucent host for TileDetailActivity: no window animation (avoids
+         e-ink flicker), transparent background so our own scrim+card draws. -->
+    <style name="Theme.EinkDialog" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

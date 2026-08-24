@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">statusbar_control_eink</string>
+
+    <string name="tile_media_volume">Media Volume</string>
+    <string name="tile_ring_volume">Ring Volume</string>
+    <string name="tile_vibrate">Ring / Vibrate</string>
+
+    <string name="notification_channel_name">Status Bar Controls</string>
+    <string name="notification_channel_description">Persistent media volume, ring volume, and vibrate controls</string>
+    <string name="notification_summary">Media %1$d%% · Ring %2$d%% · %3$s</string>
+
+    <string name="state_normal">Normal</string>
+    <string name="state_vibrate">Vibrate</string>
+
+    <string name="needs_notification_policy_access">Needs Do Not Disturb access to switch ring/vibrate — opening settings</string>
+    <string name="needs_write_settings_permission">Needs Modify System Settings access to change screen lock — opening settings</string>
+
+    <string name="dashboard_title">Status Bar Controls</string>
+    <string name="dashboard_persistent_notification">Persistent notification</string>
+    <string name="dashboard_resume_on_boot">Resume on boot</string>
+    <string name="dashboard_media_volume">Media Volume</string>
+    <string name="dashboard_ring_volume">Ring Volume</string>
+    <string name="dashboard_ringer_mode">Ringer Mode</string>
+    <string name="dashboard_screen_lock_section">Screen Lock</string>
+    <string name="dashboard_screen_lock_normal">Auto Lock</string>
+    <string name="dashboard_screen_lock_never">Never Lock</string>
+    <string name="dashboard_notification_style">Notification Layout</string>
+
+    <string name="notification_media_label_value">Media %1$d/%2$d</string>
+    <string name="notification_ring_label_value">Ring %1$d/%2$d</string>
+    <string name="stepper_minus">－</string>
+    <string name="stepper_plus">＋</string>
+
+    <string name="notification_style_buttons_split">Buttons (split)</string>
+    <string name="notification_style_slider_split">Slider (split)</string>
+    <string name="notification_style_slider_stacked">Slider (stacked)</string>
+</resources>
